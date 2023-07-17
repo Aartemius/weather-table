@@ -1,0 +1,9 @@
+.tableWrap {
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background: rgba(0,0,0, .55);
+}
+.tableWrap td {
+  color: #fff;
+}

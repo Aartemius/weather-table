@@ -1,0 +1,214 @@
+{
+  "countries": [
+    {
+      "iso2": "FR",
+      "iso3": "FRA",
+      "name": "France",
+      "cities": [
+        {
+          "name": "Yerres",
+          "lat": 48.716811,
+          "lng": 2.4879753,
+          "windDirection": 229,
+          "country": "France"
+        },
+        {
+          "name": "Bazens",
+          "lat": 44.2630104,
+          "lng": 0.422907,
+          "windDirection": 356,
+          "country": "France"
+        },
+        {
+          "name": "Azay-le-Brule",
+          "lat": 46.400949,
+          "lng": -0.2483636,
+          "windDirection": 324,
+          "country": "France"
+        },
+        {
+          "name": "Agde",
+          "lat": 43.3134787,
+          "lng": 3.4771629,
+          "windDirection": 181,
+          "country": "France"
+        },
+        {
+          "name": "Flins-sur-Seine",
+          "lat": 48.9623407,
+          "lng": 1.8684146,
+          "windDirection": 226,
+          "country": "France"
+        }
+      ]
+    },
+    {
+      "iso2": "DE",
+      "iso3": "DEU",
+      "name": "Germany",
+      "cities": [
+        {
+          "name": "Haide",
+          "lat": 51.3044176,
+          "lng": 8.68101,
+          "windDirection": 282,
+          "country": "Germany"
+        },
+        {
+          "name": "Seelitz",
+          "lat": 51.0313851,
+          "lng": 12.8209491,
+          "windDirection": 310,
+          "country": "Germany"
+        },
+        {
+          "name": "Minden",
+          "lat": 52.2881045,
+          "lng": 8.9168852,
+          "windDirection": 281,
+          "country": "Germany"
+        },
+        {
+          "name": "Morenhoven",
+          "lat": 50.6658206,
+          "lng": 6.9550154,
+          "windDirection": 302,
+          "country": "Germany"
+        },
+        {
+          "name": "Pforzheim",
+          "lat": 48.8908846,
+          "lng": 8.7029532,
+          "windDirection": 273,
+          "country": "Germany"
+        }
+      ]
+    },
+    {
+      "iso2": "IT",
+      "iso3": "ITA",
+      "name": "Italy",
+      "cities": [
+        {
+          "name": "Castelseprio",
+          "lat": 45.7182628,
+          "lng": 8.8628523,
+          "windDirection": 305,
+          "country": "Italy"
+        },
+        {
+          "name": "Gioia del Colle",
+          "lat": 40.796728,
+          "lng": 16.92359,
+          "windDirection": 346,
+          "country": "Italy"
+        },
+        {
+          "name": "Caorso",
+          "lat": 45.0495995,
+          "lng": 9.8743749,
+          "windDirection": 64,
+          "country": "Italy"
+        },
+        {
+          "name": "Camporosso",
+          "lat": 43.8151011,
+          "lng": 7.6284178,
+          "windDirection": 135,
+          "country": "Italy"
+        },
+        {
+          "name": "Pellezzano",
+          "lat": 40.725211,
+          "lng": 14.757443,
+          "windDirection": 193,
+          "country": "Italy"
+        }
+      ]
+    },
+    {
+      "iso2": "ES",
+      "iso3": "ESP",
+      "name": "Spain",
+      "cities": [
+        {
+          "name": "Penarroya-Pueblonuevo",
+          "lat": 38.3026178,
+          "lng": -5.2714828,
+          "windDirection": 200,
+          "country": "Spain"
+        },
+        {
+          "name": "Rielves",
+          "lat": 39.9607218,
+          "lng": -4.1930252,
+          "windDirection": 316,
+          "country": "Spain"
+        },
+        {
+          "name": "Olite",
+          "lat": 42.4813623,
+          "lng": -1.6512224,
+          "windDirection": 247,
+          "country": "Spain"
+        },
+        {
+          "name": "Valladolises",
+          "lat": 37.7778385,
+          "lng": -1.1225445,
+          "windDirection": 93,
+          "country": "Spain"
+        },
+        {
+          "name": "Orio",
+          "lat": 43.2760488,
+          "lng": -2.127262,
+          "windDirection": 349,
+          "country": "Spain"
+        }
+      ]
+    },
+    {
+      "iso2": "UA",
+      "iso3": "UKR",
+      "name": "Ukraine",
+      "cities": [
+        {
+          "name": "Cherkasy",
+          "lat": 49.1460165,
+          "lng": 31.2271744,
+          "windDirection": 319,
+          "country": "Ukraine"
+        },
+        {
+          "name": "Sorotskoye",
+          "lat": 49.37886,
+          "lng": 25.84798,
+          "windDirection": 313,
+          "country": "Ukraine"
+        },
+        {
+          "name": "Letychiv",
+          "lat": 49.38286,
+          "lng": 27.62306,
+          "windDirection": 317,
+          "country": "Ukraine"
+        },
+        {
+          "name": "Horlivka",
+          "lat": 48.3058686,
+          "lng": 38.0027664,
+          "windDirection": 328,
+          "country": "Ukraine"
+        },
+        {
+          "name": "Desna",
+          "lat": 49.2844045,
+          "lng": 28.5399831,
+          "windDirection": 317,
+          "country": "Ukraine"
+        }
+      ]
+    }
+  ]
+}
