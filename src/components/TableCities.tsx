@@ -39,7 +39,7 @@ const TableCities: FC = () => {
   return (
     <div
       className={styles.tableWrap}
-      style={{ width: Object.keys(context?.city as {}).length === 0 ? '100%' : '60%' }}
+      style={{ width: Object.keys(context?.city as {} || {}).length === 0 ? '100%' : '60%' }}
     >
       <TableFilters />
       <TableContainer component={Paper} sx={{borderRadius: '20px'}}>

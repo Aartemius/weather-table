@@ -14,7 +14,7 @@ const TemperatureGraphics: FC = () => {
   const [chosenCity, setChosenCity] = useState<object | null>(null);
 
   useEffect(() => {
-    if (Object.keys(context?.city as City | {}).length !== 0) {
+    if (Object.keys(context?.city as City | {} || {}).length !== 0) {
       fetch(`https://api.open-meteo.com/v1/forecast?latitude=${context?.city.lat}&longitude=${context?.city.lng}&hourly=temperature_2m&daily=temperature_2m_max,temperature_2m_min&timezone=GMT`)
       .then(response => response.json())
       .then(data => {

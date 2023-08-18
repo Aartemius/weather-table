@@ -2,12 +2,13 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Aartemius.github.io/weather-table",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && next export && gh-pages -d out"
+    "deploy": "next build"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
