@@ -5,7 +5,7 @@ import React, {
   useState
 } from 'react';
 import { City, Country } from '@/types/common';
-import { useCountriesAndCities } from '@/hooks/common';
+import { useCountriesAndCities } from '@/hooks/useCountriesAndCities';
 import { Typography } from '@mui/material';
 
 interface ContextContainerProps {
