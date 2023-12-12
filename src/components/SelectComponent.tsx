@@ -26,7 +26,7 @@ const SelectComponent: React.FC<SelectComponentProps> = ({
   const [value, setValue] = useState(defaultValue);
 
   const handleChange = (event: SelectChangeEvent<string>) => {
-    const selectedValue = event.target.value as string;
+    const selectedValue = event.target.value;
     setValue(selectedValue);
     onChange(selectedValue);
   };
@@ -44,11 +44,11 @@ const SelectComponent: React.FC<SelectComponentProps> = ({
     >
       <InputLabel style={{ color: 'rgba(255,255,255, .6)' }}>{label}</InputLabel>
       <Select
-        value={value as any}
-        onChange={handleChange}
-        label={label}
-        multiple={multiple}
-        placeholder={label}
+        value={ value }
+        onChange={ handleChange }
+        label={ label }
+        multiple={ multiple }
+        placeholder={ label }
         variant="outlined"
         style={{
           borderRadius: '20px',

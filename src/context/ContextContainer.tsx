@@ -51,9 +51,10 @@ const ContextContainer: FC<ContextContainerProps> = ({ children }) => {
     const filteredCities = cities.filter((city: City) => {
       return Math.round(city.minTemperature) >= tableState.minTemp
       && Math.round(city.maxTemperature) <= tableState.maxTemp
-      && (tableState.chosenCountries.length ? tableState.chosenCountries.includes(city.country as never) : true)
+      && (tableState.chosenCountries.length ? tableState.chosenCountries.includes(city.country) : true)
     })
     setTableState({...tableState, cities: filteredCities});
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     tableState.chosenCountries,
     tableState.maxTemp,
@@ -95,7 +96,7 @@ const ContextContainer: FC<ContextContainerProps> = ({ children }) => {
         setCities(updatedCities);
 
         const temperatures = updatedCities.reduce((acc, { minTemperature, maxTemperature }) => {
-          acc.push(minTemperature as never, maxTemperature as never);
+          acc.push(minTemperature, maxTemperature);
           return acc;
         }, []);
 
